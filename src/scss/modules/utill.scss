@@ -1,0 +1,58 @@
+.bg-purple {
+  background-color: #273747;
+  color: #fff;
+}
+.bg-red {
+  background-color: #fc4349;
+}
+.bg-sky {
+  background-color: #6dbcdb;
+}
+
+.bg-blue {
+  background: #1e2e3d;
+}
+
+.bg-darkish {
+  background-color: #182633 !important;
+}
+
+.fullWidth {
+  max-width: 100%;
+}
+.text-highlight-primary {
+  color: #fc4349;
+}
+.section-title {
+  text-align: left;
+  color: #fff;
+  border-top: 1px solid #324659;
+  padding: 2rem 0;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  @include glob {
+    font-size: 2.2rem;
+  }
+}
+
+.color-primary {
+  color: #0e3b4d !important;
+}
+
+.text-yellow {
+  color: #efc94c;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 10px #1f2b38;
+  @include glob {
+    font-size: 1.8rem;
+  }
+}
+
+.customeP {
+  line-height: 1.7;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}

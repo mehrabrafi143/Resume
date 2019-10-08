@@ -1,0 +1,18 @@
+.about {
+  color: #8da0b5;
+  text-align: left;
+  padding: 8rem 20rem;
+  margin-top: -1rem;
+  @include glob {
+    padding: 8rem 0rem;
+  }
+
+  p {
+    line-height: 1.7;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+    @include glob {
+      font-size: 1.3rem;
+    }
+  }
+}

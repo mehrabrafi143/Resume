@@ -1,0 +1,24 @@
+.spice {
+  padding: 8rem 12rem;
+  color: #fff;
+  letter-spacing: 3px;
+  @include glob {
+    padding: 8rem 0rem;
+  }
+  h1 {
+    padding-bottom: 3rem;
+    font-weight: 400;
+    font-size: 3.5rem;
+    @include glob {
+      font-size: 2rem;
+    }
+  }
+  p {
+    color: #73292b;
+    font-size: 1.7rem;
+    font-weight: 700;
+    @include glob {
+      font-size: 1.5rem;
+    }
+  }
+}

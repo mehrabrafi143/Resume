@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial", helvetica, arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+html {
+  font-size: 67.5%;
+  color: #fff;
+}
+
+@mixin glob {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
